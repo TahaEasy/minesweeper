@@ -1,2 +1,3 @@
 # minesweeper
-The minesweaper game made with js
+
+The minesweeper game made with js

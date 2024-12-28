@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="end-game-screen hide">
+      <h1 class="end-game-title"></h1>
+      <button type="button" id="restart-btn">Restart</button>
+    </div>
+    <div class="main-container">
+      <div>
+        <div class="details-container">
+          <div class="detail-container">
+            <img src="./img/flag.png" alt="flags left" class="detail-image" />
+            <p><span id="flags-p">0</span>/<span id="flags-ap"></span></p>
+          </div>
+          <div>
+            <select aria-placeholder="select mode" id="mode-selector">
+              <option value="easy">easy</option>
+              <option value="medium">medium</option>
+              <option value="hard">hard</option>
+            </select>
+          </div>
+          <div class="detail-container">
+            <img src="./img/mine.png" alt="flags left" class="detail-image" />
+            <p id="mines-p"></p>
+          </div>
+        </div>
+        <div class="box"></div>
+      </div>
+    </div>
+
+    <script src="./scripts.js"></script>
+  </body>
+</html>
